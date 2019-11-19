@@ -1,0 +1,79 @@
+
+
+body{
+	background-image:url(https://diapogram.com/upload/2018/04/11/20180411153414-1962384c.jpg);
+}
+
+
+nav{
+	width: 100%;
+	position: fixed;
+
+
+}
+
+li {
+list-style:none !important;
+color:#2f3640;
+padding:20px;
+font-size:10px;
+text-decoration-color: #2f3640;
+}
+ 
+nav ul {
+background-color:#2f3640
+padding:0;
+margin:0;
+list-style-type: none;
+}
+ 
+nav ul li {
+list-style: none;
+line-height:50px;
+float:left;
+background-color:#ffffff;
+
+}
+ 
+nav ul li a {
+color:#2f3640;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+ 
+li a:hover {
+border-bottom:0px #40739e solid;
+}
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+ 
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+	z-index:99999;
+	display:list-item !important;
+	position:absolute;
+	margin-top:0px;
+	margin-left:-10px;
+}
+ 
+nav ul li:hover ul li {
+float:none;
+
+}
+
+.content img{
+
+	margin: 3px;
+	width: 25px;
+	height:15px;
+
+}
+
+a {
+
+color: #ffffff;
+}
+
+li a:hover{
+	background-color: #00a8ff;
+
+}
